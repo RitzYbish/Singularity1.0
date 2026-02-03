@@ -1,0 +1,72 @@
+{
+  "TranslationProperties": {
+    "Name": "Fluorescent Lighting Stick Broken"
+  },
+  "Icon": "Icons/ItemsGenerated/Fluorescent_Lighting_Stick_Broken.png",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 1,
+        "ResourceTypeId": "",
+        "ItemId": "Ingredient_Machine_Essence"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Machines_Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Machines"
+        ]
+      }
+    ],
+    "OutputQuantity": 2,
+    "TimeSeconds": 0,
+    "Output": [
+      {
+        "ItemId": "Fluorescent_Lighting_Stick_Broken"
+      }
+    ]
+  },
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Fluorescent_Lighting_Broken.png",
+        "Weight": 1
+      }
+    ],
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "CubeShadingMode": "Standard",
+    "Opacity": "Solid",
+    "Material": "Solid",
+    "PlacementSettings": {
+      "PlaceInEmptyBlocks": true
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Aqua"
+    ]
+  },
+  "Parent": "Rock_Stone_Brick_Beam",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "UsePlayerAnimations": true
+}

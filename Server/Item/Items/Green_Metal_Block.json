@@ -1,0 +1,78 @@
+{
+  "TranslationProperties": {
+    "Name": "Green Metal Block"
+  },
+  "Icon": "Icons/ItemsGenerated/Green_Metal_Block.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "Rock_Chalk"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "Textures": [
+      {
+        "All": "BlockTextures/Green_Metal_Block.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#00ff14",
+    "BlockSoundSetId": "Metal",
+    "VariantRotation": "NESW"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    },
+    {
+      "Id": "Rock_Chalk"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Grey_Metal_Block"
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Green_Metal_Block"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Machines_Workbench",
+        "Categories": [
+          "Machines"
+        ]
+      }
+    ]
+  }
+}

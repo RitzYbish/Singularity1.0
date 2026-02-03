@@ -1,0 +1,38 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Intelligent",
+  "Parameters": {
+    "FollowPatrolPath": {
+      "Value": false,
+      "Description": "Whether this NPC will follow patrol paths at all."
+    },
+    "Patrol": {
+      "Value": false,
+      "Description": "Whether or not this NPC will patrol during its waking hours, either alone or as part of a group."
+    },
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Scarak_Fighter.name",
+      "Description": "Translation key for NPC name display"
+    }
+  },
+  "Modify": {
+    "MaxHealth": 81,
+    "DropList": "Mecha_Rat",
+    "Appearance": "Mecha_Scarak",
+    "Weapons": [],
+    "OffHand": [],
+    "MaxSpeed": 7,
+    "FollowPatrolPath": {
+      "Compute": "FollowPatrolPath"
+    },
+    "Patrol": {
+      "Compute": "Patrol"
+    },
+    "Attack": "Root_NPC_Scarak_Fighter_Attack",
+    "BlockProbability": 0,
+    "AttitudeGroup": "Scarak",
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "TranslationProperties": {
+    "Name": "Oil Slick"
+  },
+  "Icon": "Icons/ItemsGenerated/Fluid_Oil_Slick.png",
+  "Categories": [
+    "Blocks.Fluids"
+  ],
+  "Interactions": {
+    "Secondary": {
+      "Interactions": [
+        {
+          "Type": "PlaceFluid",
+          "FluidToPlace": "Oil_Slick_Source"
+        }
+      ]
+    }
+  },
+  "BlockType": {
+    "DrawType": "Cube",
+    "Group": "Mud",
+    "Material": "Solid",
+    "TransitionTexture": "BlockTextures/Transition_Fluid_Oil_Slick.png",
+    "TransitionToGroups": [
+      "Dirt_Dry",
+      "Mud",
+      "Dirt",
+      "Grass",
+      "GrassDeep",
+      "GrassDeepSunny",
+      "Grass_Dry",
+      "Stone",
+      "Sand",
+      "Sand_White",
+      "Clay"
+    ],
+    "Effect": [
+      "Slime"
+    ],
+    "Flags": {},
+    "BlockParticleSetId": "Tar",
+    "Textures": [
+      {
+        "Weight": 1,
+        "All": "BlockTextures/Oil_Slick.png"
+      }
+    ],
+    "ParticleColor": "#293628",
+    "BlockSoundSetId": "Mud",
+    "Interactions": {
+      "Collision": {
+        "Cooldown": {
+          "Id": "SlowEffect",
+          "Cooldown": 0.1
+        },
+        "Interactions": [
+          {
+            "Type": "Condition",
+            "RequiredGameMode": "Adventure",
+            "Next": {
+              "Type": "ApplyEffect",
+              "EffectId": {
+                "Duration": 0.1,
+                "OverlapBehavior": "Overwrite",
+                "ApplicationEffects": {
+                  "HorizontalSpeedMultiplier": 0.2
+                },
+                "StatModifiers": {
+                  "Oxygen": -1
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "PlayerAnimationsId": "Block",
+  "Tags": {
+    "Material": [
+      "Fluid"
+    ]
+  },
+  "MaxStack": 1,
+  "ItemSoundSetId": "ISS_Blocks_Soft",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Machines_Workbench",
+        "Categories": [
+          "Machines"
+        ]
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Machine_Essence",
+        "Quantity": 2
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Fluid_Oil_Slick",
+        "Quantity": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "InstanceId": "Test",
+  "Description": {
+    "DisplayName": "Metal",
+    "ThemeColor": "#23970cec",
+    "SplashImage": "DefaultArtwork.png"
+  },
+  "VoidInvasionEnabled": false,
+  "PlayerSpawn": {
+    "Y": 140,
+    "ScanHeight": 16,
+    "MinRadius": 60,
+    "MaxRadius": 60
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "TranslationProperties": {
+    "Name": "Trash"
+  },
+  "Icon": "Icons/ItemsGenerated/Trash.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "Rock_Chalk"
+      }
+    },
+    "BlockParticleSetId": "Clay",
+    "Textures": [
+      {
+        "All": "BlockTextures/Trashy.png",
+        "Weight": 1
+      }
+    ],
+    "ParticleColor": "#3b322a",
+    "BlockSoundSetId": "Gravel",
+    "VariantRotation": "NESW"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    },
+    {
+      "Id": "Rock_Chalk"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Gravel",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "Recipe": {
+    "Input": [
+      {
+        "ItemId": "Ingredient_Machine_Essence"
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Trash"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Machines_Workbench",
+        "Categories": [
+          "Machines"
+        ]
+      }
+    ]
+  }
+}

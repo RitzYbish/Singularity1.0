@@ -1,0 +1,35 @@
+{
+  "Environments": [
+    "TestEnvironment"
+  ],
+  "NPCs": [
+    {
+      "Id": "Mecha_Rat",
+      "Weight": 100
+    },
+    {
+      "Id": "Mecha_Spider",
+      "Weight": 100
+    },
+    {
+      "Id": "Metal_Spark",
+      "Weight": 100
+    },
+    {
+      "Id": "Robot_Crawler",
+      "Weight": 100
+    },
+    {
+      "Id": "Robot_Goblin",
+      "Weight": 100
+    },
+    {
+      "Id": "Mecha_Scarak",
+      "Weight": 100
+    }
+  ],
+  "NPCIdleDespawnTime": 30,
+  "BeaconRadius": 75,
+  "SpawnRadius": 50,
+  "MaxSpawnedNPCs": 6
+}

@@ -1,0 +1,61 @@
+{
+  "Type": "Generic",
+  "$Comment": "MotionControllerMove, MotionControllerSteer",
+  "Appearance": "Metal_Dragon_Protector",
+  "DropList": "Metal_Dragon_Protector",
+  "MotionControllerList": [
+    {
+      "Type": "Fly",
+      "MaxHorizontalSpeed": 70,
+      "MaxSinkSpeed": 30,
+      "MaxClimbSpeed": 30,
+      "MinAirSpeed": 30,
+      "Acceleration": 30,
+      "MinHeightOverGround": 40,
+      "MaxHeightOverGround": 70,
+      "MaxRollAngle": 80,
+      "MaxTurnSpeed": 70
+    }
+  ],
+  "TestType": "Normal",
+  "MaxHealth": {
+    "Compute": "MaxHealth"
+  },
+  "Parameters": {
+    "MaxHealth": {
+      "Value": 1000,
+      "Description": "Max health for the NPC"
+    }
+  },
+  "Instructions": [
+    {
+      "Continue": true,
+      "Instructions": [
+        {
+          "Sensor": {
+            "Type": "Any"
+          },
+          "BodyMotion": {
+            "Type": "WanderInCircle",
+            "Radius": 60
+          }
+        }
+      ]
+    },
+    {
+      "Instructions": [
+        {
+          "Sensor": {
+            "Type": "Any"
+          },
+          "Actions": [
+            {
+              "Type": "Nothing"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "NameTranslationKey": "server.npcRoles.Test_Dragon.name"
+}

@@ -1,0 +1,149 @@
+{
+  "WeatherForecasts": {
+    "0": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "1": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "2": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "3": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "4": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "5": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "6": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "7": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "8": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "9": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "10": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "11": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "12": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "13": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "14": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "15": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "16": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "17": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "18": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "19": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "20": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "21": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "22": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ],
+    "23": [
+      {
+        "WeatherId": "TestWeather",
+        "Weight": 100
+      }
+    ]
+  },
+  "WaterTint": "#020000"
+}

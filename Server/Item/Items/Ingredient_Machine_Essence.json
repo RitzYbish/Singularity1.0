@@ -1,0 +1,43 @@
+{
+  "TranslationProperties": {
+    "Name": "Essence of the Machine",
+    "Description": "server.items.Ingredient_Lightning_Essence.description"
+  },
+  "Icon": "Icons/ItemsGenerated/Ingredient_Machine_Essence.png",
+  "Quality": "Uncommon",
+  "Categories": [
+    "Items.Ingredients"
+  ],
+  "Model": "Blocks/Essence.blockymodel",
+  "Texture": "BlockTextures/Essence_of_the_Machine.png",
+  "PlayerAnimationsId": "Item",
+  "IconProperties": {
+    "Scale": 0.6,
+    "Rotation": [
+      0,
+      0,
+      0
+    ],
+    "Translation": [
+      0,
+      -13
+    ]
+  },
+  "Tags": {
+    "Type": [
+      "Ingredient"
+    ]
+  },
+  "ItemEntity": {
+    "ParticleSystemId": null
+  },
+  "Scale": 0.8,
+  "Light": {
+    "Color": "#951",
+    "Radius": 1
+  },
+  "ItemSoundSetId": "ISS_Items_Gems",
+  "DropOnDeath": true,
+  "Parent": "Ingredient_Fire_Essence",
+  "RenderDeployablePreview": false
+}

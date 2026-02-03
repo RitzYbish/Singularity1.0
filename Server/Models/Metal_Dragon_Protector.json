@@ -1,0 +1,171 @@
+{
+  "Model": "NPC/models/Dragon.blockymodel",
+  "Texture": "NPC/models/MetalDragonProtector.png",
+  "EyeHeight": 3.5,
+  "HitBox": {
+    "Max": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "Min": {
+      "X": -1,
+      "Y": 0,
+      "Z": -1
+    }
+  },
+  "MinScale": 3,
+  "MaxScale": 3,
+  "Camera": {
+    "Pitch": {
+      "AngleRange": {
+        "Max": 60,
+        "Min": -45
+      },
+      "TargetNodes": [
+        "Head"
+      ]
+    },
+    "Yaw": {
+      "TargetNodes": [
+        "Head"
+      ]
+    }
+  },
+  "AnimationSets": {
+    "Idle": {
+      "Animations": [
+        {
+          "Animation": "NPC/models/Animations/Idle.blockyanim",
+          "Speed": 1
+        }
+      ]
+    },
+    "Walk": {
+      "Animations": [
+        {
+          "Animation": "NPC/models/Animations/Walk.blockyanim"
+        }
+      ]
+    },
+    "Run": {
+      "Animations": [
+        {
+          "Animation": "NPC/models/Animations/Run.blockyanim"
+        }
+      ]
+    },
+    "Jump": {
+      "Animations": [
+        {
+          "Animation": "NPC/models/Animations/Jump.blockyanim",
+          "BlendingDuration": 0.2,
+          "Looping": false,
+          "Speed": 0.75
+        }
+      ]
+    },
+    "JumpWalk": {
+      "Animations": [
+        {
+          "Animation": "NPC/models/Animations/Jump.blockyanim",
+          "BlendingDuration": 0.2,
+          "Looping": false,
+          "Speed": 0.75
+        }
+      ]
+    },
+    "JumpRun": {
+      "Animations": [
+        {
+          "Animation": "NPC/models/Animations/Jump.blockyanim",
+          "BlendingDuration": 0.2,
+          "Looping": false,
+          "Speed": 0.75
+        }
+      ]
+    },
+    "Fall": {
+      "Animations": [
+        {
+          "Animation": "NPC/models/Animations/Fall.blockyanim",
+          "BlendingDuration": 0.4
+        }
+      ]
+    },
+    "FlyIdle": {
+      "Animations": [
+        {
+          "Animation": "NPC/models/Animations/Fly_Idle.blockyanim",
+          "BlendingDuration": 0.2,
+          "Speed": 1.5
+        }
+      ]
+    },
+    "Fly": {
+      "Animations": [
+        {
+          "Animation": "NPC/models/Animations/Fly.blockyanim",
+          "BlendingDuration": 0.2
+        },
+        {
+          "Animation": "NPC/models/Animations/Glide.blockyanim",
+          "BlendingDuration": 0.2
+        }
+      ]
+    },
+    "FlyFast": {
+      "Animations": [
+        {
+          "Animation": "NPC/models/Animations/Glide.blockyanim",
+          "BlendingDuration": 0.2
+        },
+        {
+          "Animation": "NPC/models/Animations/Fly.blockyanim",
+          "BlendingDuration": 0.2
+        }
+      ]
+    },
+    "Hurt": {
+      "Animations": [
+        {
+          "Animation": "NPC/models/Animations/Hurt.blockyanim",
+          "BlendingDuration": 0.1,
+          "Looping": false
+        }
+      ]
+    },
+    "Death": {
+      "Animations": [
+        {
+          "Animation": "NPC/models/Animations/Death.blockyanim",
+          "Looping": false
+        }
+      ]
+    },
+    "Sleep": {
+      "Animations": [
+        {
+          "Animation": "NPC/models/Animations/Sleep.blockyanim",
+          "SoundEventId": "SFX_Dragon_Sleep"
+        }
+      ]
+    }
+  },
+  "Icon": "Icons/ModelsGenerated/Metal_Dragon_Protector.png",
+  "IconProperties": {
+    "Scale": 0.1,
+    "Rotation": [
+      0,
+      -45,
+      0
+    ],
+    "Translation": [
+      0,
+      -75
+    ]
+  },
+  "Light": {
+    "Color": "#86d"
+  }
+}

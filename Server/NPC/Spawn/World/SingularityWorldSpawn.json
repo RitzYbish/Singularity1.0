@@ -1,0 +1,41 @@
+{
+  "Environments": [
+    "TestEnvironment"
+  ],
+  "NPCs": [
+    {
+      "Weight": 5,
+      "SpawnBlockSet": "Rock",
+      "Id": "Mecha_Rat"
+    },
+    {
+      "Weight": 5,
+      "SpawnBlockSet": "Rock",
+      "Id": "Mecha_Spider"
+    },
+    {
+      "Id": "Metal_Dragon_Protector",
+      "Weight": 5,
+      "SpawnBlockSet": "Rock"
+    },
+    {
+      "Id": "Metal_Spark",
+      "Weight": 5,
+      "SpawnBlockSet": "Rock"
+    },
+    {
+      "Id": "Robot_Crawler",
+      "Weight": 5,
+      "SpawnBlockSet": "Rock"
+    },
+    {
+      "Id": "Robot_Goblin",
+      "Weight": 5,
+      "SpawnBlockSet": "Rock"
+    }
+  ],
+  "DayTimeRange": [
+    1,
+    18
+  ]
+}

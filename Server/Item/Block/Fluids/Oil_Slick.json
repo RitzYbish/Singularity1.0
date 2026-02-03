@@ -1,0 +1,9 @@
+{
+  "Parent": "Oil_Slick_Source",
+  "MaxFluidLevel": 8,
+  "Ticker": {
+    "CanDemote": true,
+    "SupportedBy": "Tar_Source"
+  },
+  "ParticleColor": "#2c362a"
+}

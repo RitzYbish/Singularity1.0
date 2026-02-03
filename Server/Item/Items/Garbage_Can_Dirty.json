@@ -1,0 +1,131 @@
+{
+  "TranslationProperties": {
+    "Name": "Garbage Can Dirty"
+  },
+  "PlayerAnimationsId": "Block",
+  "Categories": [
+    "Furniture.Containers"
+  ],
+  "Set": "Furniture_Echoes",
+  "Icon": "Icons/ItemsGenerated/Garbage_Can_Dirty.png",
+  "IconProperties": {
+    "Scale": 0.5,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      13,
+      -9
+    ]
+  },
+  "BlockType": {
+    "BlockParticleSetId": "Metal",
+    "BlockSoundSetId": "Metal",
+    "CustomModel": "Blocks/Decorative_Sets/Ancient/Chest.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Garbage_Can_Dirty.png",
+        "Weight": 1
+      }
+    ],
+    "DrawType": "Model",
+    "Flags": {
+      "IsUsable": true
+    },
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Woods",
+        "DropList": {
+          "Container": {
+            "Type": "Single",
+            "Item": {
+              "ItemId": "Garbage_Can_Clean",
+              "QuantityMin": 2,
+              "QuantityMax": 2
+            }
+          }
+        }
+      }
+    },
+    "HitboxType": "Chest_Large",
+    "Material": "Solid",
+    "Opacity": "Transparent",
+    "ParticleColor": "#123f0a",
+    "State": {
+      "Id": "container",
+      "Capacity": 36,
+      "Definitions": {
+        "CloseWindow": {
+          "InteractionSoundEventId": "SFX_Chest_Wooden_Close",
+          "CustomModelAnimation": "Blocks/Animations/Chest/Chest_Close.blockyanim"
+        },
+        "OpenWindow": {
+          "InteractionSoundEventId": "SFX_Chest_Wooden_Open",
+          "CustomModelAnimation": "Blocks/Animations/Chest/Chest_Open.blockyanim"
+        }
+      }
+    },
+    "Supporting": {
+      "Up": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "Support": {
+      "Down": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "VariantRotation": "NESW",
+    "Interactions": {
+      "Primary": "Break_Container",
+      "Use": "Open_Container"
+    }
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Fuel"
+    },
+    {
+      "Id": "Charcoal"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Furniture"
+    ],
+    "Family": [
+      "Ancient"
+    ]
+  },
+  "Scale": 1,
+  "Variant": false,
+  "ItemSoundSetId": "ISS_Items_Metal",
+  "MaxStack": 10,
+  "Recipe": {
+    "BenchRequirement": [
+      {
+        "Id": "Machines_Workbench",
+        "Categories": [
+          "Machines"
+        ]
+      }
+    ],
+    "Output": [
+      {
+        "ItemId": "Garbage_Can_Dirty"
+      }
+    ],
+    "Input": [
+      {
+        "ItemId": "Ingredient_Machine_Essence",
+        "Quantity": 2
+      }
+    ]
+  }
+}

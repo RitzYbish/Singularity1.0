@@ -1,0 +1,65 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Rock_Chalk.name"
+  },
+  "Icon": "Icons/ItemsGenerated/Broken_Metal_Block.png",
+  "Categories": [
+    "Blocks.Rocks"
+  ],
+  "PlayerAnimationsId": "Block",
+  "BlockType": {
+    "Material": "Solid",
+    "DrawType": "Cube",
+    "Group": "Stone",
+    "Flags": {},
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks",
+        "ItemId": "Rock_Chalk"
+      }
+    },
+    "BlockParticleSetId": "Metal",
+    "Textures": [
+      {
+        "Weight": 1,
+        "UpDown": "BlockTextures/Broken_Metal_Block_Top.png",
+        "North": "BlockTextures/Broken_Metal_Block_Top.png",
+        "South": "BlockTextures/Broken_Metal_Block_Side.png",
+        "West": "BlockTextures/Broken_Metal_Block_Top.png",
+        "East": "BlockTextures/Broken_Metal_Block_Top.png"
+      }
+    ],
+    "ParticleColor": "#424242",
+    "BlockSoundSetId": "Metal",
+    "FlipType": "Symmetric",
+    "VariantRotation": "NESW",
+    "RandomRotation": "None",
+    "RotationYawPlacementOffset": "None"
+  },
+  "ResourceTypes": [
+    {
+      "Id": "Rock"
+    },
+    {
+      "Id": "Rock_Chalk"
+    }
+  ],
+  "Tags": {
+    "Type": [
+      "Rock"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Stone",
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "TranslationProperties": {
+    "Name": "Fluorescent Lighting Stick"
+  },
+  "Icon": "Icons/ItemsGenerated/Fluorescent_Lighting_Stick.png",
+  "Recipe": {
+    "Input": [
+      {
+        "Quantity": 2,
+        "ResourceTypeId": "",
+        "ItemId": "Ingredient_Machine_Essence"
+      }
+    ],
+    "BenchRequirement": [
+      {
+        "Id": "Machines_Workbench",
+        "Type": "Crafting",
+        "Categories": [
+          "Machines"
+        ]
+      }
+    ],
+    "OutputQuantity": 2,
+    "TimeSeconds": 0,
+    "Output": [
+      {
+        "ItemId": "Fluorescent_Lighting_Stick"
+      }
+    ]
+  },
+  "BlockType": {
+    "CustomModelTexture": [
+      {
+        "Texture": "BlockTextures/Fluorescent_Lighting.png",
+        "Weight": 1
+      }
+    ],
+    "Gathering": {
+      "Breaking": {
+        "GatherType": "Rocks"
+      }
+    },
+    "ParticleColor": "#fffee9",
+    "CubeShadingMode": "Reflective",
+    "Opacity": "Transparent",
+    "Material": "Solid",
+    "Light": {
+      "Color": "#eed"
+    },
+    "PlacementSettings": {
+      "PlaceInEmptyBlocks": true
+    }
+  },
+  "Tags": {
+    "Type": [
+      "Rock"
+    ],
+    "Family": [
+      "Aqua"
+    ]
+  },
+  "Parent": "Rock_Stone_Brick_Beam",
+  "Interactions": {
+    "Secondary": "Lantern_White"
+  },
+  "IconProperties": {
+    "Scale": 0.58823,
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Translation": [
+      0,
+      -13.5
+    ]
+  },
+  "UsePlayerAnimations": true
+}

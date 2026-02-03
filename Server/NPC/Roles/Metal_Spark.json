@@ -1,0 +1,20 @@
+{
+  "Type": "Variant",
+  "Reference": "Template_Animal_Neutral",
+  "Modify": {
+    "Appearance": "Metal_Spark",
+    "DropList": "Mecha_Rat",
+    "MaxHealth": 61,
+    "IsMemory": true,
+    "MemoriesCategory": "Elemental",
+    "NameTranslationKey": {
+      "Compute": "NameTranslationKey"
+    }
+  },
+  "Parameters": {
+    "NameTranslationKey": {
+      "Value": "server.npcRoles.Spark_Living.name",
+      "Description": "Translation key for NPC name display"
+    }
+  }
+}
